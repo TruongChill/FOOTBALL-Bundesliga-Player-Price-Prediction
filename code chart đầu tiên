@@ -1,0 +1,5 @@
+plt.figure(figsize=(6,4))
+plt.bar(df1['age'],df1['max_price'])
+plt.xlabel('Age')
+plt.ylabel('Max Price')
+plt.title('Price per Age')
